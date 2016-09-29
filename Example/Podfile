@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ViewMagic_Example' do
+  pod 'ViewMagic', :path => '../'
+
+  target 'ViewMagic_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
