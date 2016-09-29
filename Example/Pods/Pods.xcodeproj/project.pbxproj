@@ -9,10 +9,10 @@
 /* Begin PBXBuildFile section */
 		01ABC1AC72933A3C210EC4213D44ADBA /* Pods-ViewMagic_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C41CA5F0C8E27464E91FC55EEA949144 /* Pods-ViewMagic_Tests-dummy.m */; };
 		25ACDE070E72BFED63BA7B700FF1329F /* Pods-ViewMagic_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 68049DBC501BDC88E934F07A61D34A3C /* Pods-ViewMagic_Example-dummy.m */; };
-		2E39E0A84C23CCBFBAD7E9FE2864836A /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9BD5F2A0F5B52B152E2807A7DD73CB /* ReplaceMe.swift */; };
 		5280FFB04CA2A1BF2670E73EAF2BB140 /* Pods-ViewMagic_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C2270007F13E6244897687A9B858F345 /* Pods-ViewMagic_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7FC7CBE5A93A3E0D9FE1B3EBAA93EBCB /* ViewMagic-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 67E34062238CC4F757AF8CB024552A47 /* ViewMagic-dummy.m */; };
 		929D18837E21C45850D20152B61720F2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		A9B171C11D9DC3BB001E3727 /* VMTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B171C01D9DC3BB001E3727 /* VMTextView.swift */; };
 		DBF1995102B32F51165E73DC079FE7C7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 		E105AEA91ECC6F53648E74F2F5019991 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 		E5CD16245BDA7071E25158FBD96AFD78 /* ViewMagic-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E50DA915C2D3B413567A699488C659D8 /* ViewMagic-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -33,7 +33,6 @@
 		05B325F0A40198F1246D0FFF95BA0E48 /* Pods_ViewMagic_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ViewMagic_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FAF52641958721EF4988C5D58E83F2E /* Pods-ViewMagic_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ViewMagic_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		18F9F6E6E5FA5F51D5A292DF27272F34 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2B9BD5F2A0F5B52B152E2807A7DD73CB /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
 		4493768BD420C5D74F61234126C4CEAD /* ViewMagic.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = ViewMagic.modulemap; sourceTree = "<group>"; };
 		471357AE7CE1203C3906554F848F15E6 /* Pods-ViewMagic_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ViewMagic_Tests-umbrella.h"; sourceTree = "<group>"; };
 		570324493C57E8010BC68561BE027C69 /* Pods_ViewMagic_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ViewMagic_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,6 +50,7 @@
 		9692779B89C364275BEF924DAA4F4DE2 /* ViewMagic-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ViewMagic-prefix.pch"; sourceTree = "<group>"; };
 		9C72EFEAD7E3F548580FA77C589DA484 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A41670E2B20A2D2F088F40D347229901 /* Pods-ViewMagic_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ViewMagic_Example-resources.sh"; sourceTree = "<group>"; };
+		A9B171C01D9DC3BB001E3727 /* VMTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VMTextView.swift; sourceTree = "<group>"; };
 		B50B01D0645F8FB63828844B893519CE /* Pods-ViewMagic_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ViewMagic_Example.release.xcconfig"; sourceTree = "<group>"; };
 		BF60B953E21BEB63CB48919CFE28B3EA /* Pods-ViewMagic_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ViewMagic_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		C2270007F13E6244897687A9B858F345 /* Pods-ViewMagic_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ViewMagic_Example-umbrella.h"; sourceTree = "<group>"; };
@@ -161,7 +161,7 @@
 		900A983FFBB31F33E57CBCF1FF617494 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				2B9BD5F2A0F5B52B152E2807A7DD73CB /* ReplaceMe.swift */,
+				A9B171C01D9DC3BB001E3727 /* VMTextView.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -356,7 +356,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2E39E0A84C23CCBFBAD7E9FE2864836A /* ReplaceMe.swift in Sources */,
 				7FC7CBE5A93A3E0D9FE1B3EBAA93EBCB /* ViewMagic-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -365,6 +364,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9B171C11D9DC3BB001E3727 /* VMTextView.swift in Sources */,
 				25ACDE070E72BFED63BA7B700FF1329F /* Pods-ViewMagic_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -454,6 +454,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BF60B953E21BEB63CB48919CFE28B3EA /* Pods-ViewMagic_Example.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -467,7 +468,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
+				MACH_O_TYPE = mh_dylib;
 				MODULEMAP_FILE = "Target Support Files/Pods-ViewMagic_Example/Pods-ViewMagic_Example.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
@@ -502,7 +503,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
+				MACH_O_TYPE = mh_dylib;
 				MODULEMAP_FILE = "Target Support Files/Pods-ViewMagic_Tests/Pods-ViewMagic_Tests.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
@@ -523,6 +524,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B50B01D0645F8FB63828844B893519CE /* Pods-ViewMagic_Example.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -536,7 +538,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
+				MACH_O_TYPE = mh_dylib;
 				MODULEMAP_FILE = "Target Support Files/Pods-ViewMagic_Example/Pods-ViewMagic_Example.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
@@ -642,7 +644,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
+				MACH_O_TYPE = mh_dylib;
 				MODULEMAP_FILE = "Target Support Files/Pods-ViewMagic_Tests/Pods-ViewMagic_Tests.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";

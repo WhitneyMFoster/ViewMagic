@@ -1,9 +1,9 @@
 {
   "name": "ViewMagic",
   "version": "0.1.0",
-  "summary": "A short description of ViewMagic.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/ViewMagic",
+  "summary": "ViewMagic holds custom views that other developers may find useful",
+  "description": "ViewMagic holds custom views that Ive found useful for reuse throughout my code",
+  "homepage": "https://github.com/WhitneyMFoster/ViewMagic",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,11 @@
     "Whitney Foster": "whitney.m.foster@gmail.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/ViewMagic.git",
+    "git": "https://github.com/WhitneyMFoster/ViewMagic.git",
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "9.0"
   },
   "source_files": "ViewMagic/Classes/**/*"
 }

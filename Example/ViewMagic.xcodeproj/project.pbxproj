@@ -14,6 +14,7 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		A9B171C31D9DC8A0001E3727 /* VMTextViewExampleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B171C21D9DC8A0001E3727 /* VMTextViewExampleVC.swift */; };
 		B9725C6116982E14EC740DD0 /* Pods_ViewMagic_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A41472BA9D35428110BDD952 /* Pods_ViewMagic_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -44,6 +45,7 @@
 		8DF44D88691D42FD651440E0 /* Pods-ViewMagic_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ViewMagic_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ViewMagic_Tests/Pods-ViewMagic_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		A41472BA9D35428110BDD952 /* Pods_ViewMagic_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ViewMagic_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A67AB7C9D96521C5210FEBAE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		A9B171C21D9DC8A0001E3727 /* VMTextViewExampleVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VMTextViewExampleVC.swift; sourceTree = "<group>"; };
 		D47B5F06BDC582D65F98EF48 /* Pods-ViewMagic_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ViewMagic_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ViewMagic_Tests/Pods-ViewMagic_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		DB8552B823B6556CE7CC1543 /* Pods-ViewMagic_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ViewMagic_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ViewMagic_Example/Pods-ViewMagic_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		FF1E4FE9D93AAAAB5CF90CD8 /* ViewMagic.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ViewMagic.podspec; path = ../ViewMagic.podspec; sourceTree = "<group>"; };
@@ -104,6 +106,7 @@
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
+				A9B171C21D9DC8A0001E3727 /* VMTextViewExampleVC.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
@@ -364,6 +367,7 @@
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				A9B171C31D9DC8A0001E3727 /* VMTextViewExampleVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
