@@ -1,0 +1,16 @@
+PODS:
+  - ViewMagic (0.1.0)
+
+DEPENDENCIES:
+  - ViewMagic (from `../`)
+
+EXTERNAL SOURCES:
+  ViewMagic:
+    :path: ../
+
+SPEC CHECKSUMS:
+  ViewMagic: eb5390a66ae953322c5e8759c2aa57d2eaed0d36
+
+PODFILE CHECKSUM: 9a351f1260c7f78198661634b298d31789ecf248
+
+COCOAPODS: 1.0.1

@@ -1,0 +1,6 @@
+framework module Pods_ViewMagic_Tests {
+  umbrella header "Pods-ViewMagic_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

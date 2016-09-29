@@ -1,0 +1,6 @@
+framework module ViewMagic {
+  umbrella header "ViewMagic-umbrella.h"
+
+  export *
+  module * { export * }
+}
